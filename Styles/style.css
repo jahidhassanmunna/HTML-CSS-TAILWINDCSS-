@@ -1,3 +1,42 @@
-h1{
-    color:pink;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.hero,#tumi{
+    background-image: url(../images/amreen.jpeg);
+    height:300px;
+}
+*{
+    margin:0;
+    padding:0;
+    font-family: "Nunito", sans-serif;
+}
+.hero h1{
+    color:azure;
+    font-size: 100px;
+    text-align: center;
+   
+}
+.oscar,#tumi{
+    width:80%;
+    margin:60px auto;
+    padding:60px;
+    border-color:blueviolet;
+    border-style: solid;
+    background-color: aqua;
+    border-width: 15px;
+    
+}
+.oscar h3{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.oscar p .hekko{
+    font-size: 40px;
+    display: inline-block;
+    width:600px;
+    background-color: olivedrab;
+}
+.oscar p{
+    line-height: 4em;
 }
